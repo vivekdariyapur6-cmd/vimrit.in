@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqua Paaनी - Natural Spring Water</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="logo.png" alt="Aqua Paaनी Logo"></div>
+
+    <!-- Hamburger button -->
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+
+    <nav id="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#products" class="btn">Buy Now</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Pure • Fresh <br> Healthy</h1>
+      <p>Stay hydrated with Aqua Paaनी Natural Spring Water</p>
+      <a href="#products" class="btn big">Shop Now</a>
+    </div>
+    <div class="hero-img">
+      <img src="bottle.png" alt="Aqua Paaनी Bottle">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Aqua Paaनी brings you pure, fresh and healthy drinking water packed in hygienic bottles. We believe in quality and trust, serving hydration that keeps you refreshed every day.</p>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="bottle.png" alt="250ml Bottle">
+        <h3>250ml Bottle</h3>
+        <p>₹7</p>
+        <a href="https://wa.me/919304743065" class="btn">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="bottle.png" alt="500ml Bottle">
+        <h3>500ml Bottle</h3>
+        <p>₹10</p>
+        <a href="https://wa.me/919304743065" class="btn">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="bottle.png" alt="1L Bottle">
+        <h3>1 Litre Bottle</h3>
+        <p>₹20</p>
+        <a href="https://wa.me/919304743065" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> +91 9304743065, +91 8709938134</p>
+    <p><strong>Email:</strong> nvglobalenterprises30@gmail.com</p>
+    <p><strong>Address:</strong> Kurji Balupar Lane, Beside Devi Mandir, Near Railway Laundry, Patna, Bihar - 800010</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aqua Paaनी | All Rights Reserved</p>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919304743065" class="whatsapp" target="_blank">
+    <img src="whatsapp.png" alt="Chat on WhatsApp">
+  </a>
+
+  <!-- JS for Menu -->
+  <script>
+    const toggle = document.getElementById('menu-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    toggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      toggle.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
