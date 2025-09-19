@@ -794,28 +794,6 @@ body {
 }
 
 
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    gap: 15px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav-links li {
-    order: 0; /* by default sab 0 */
-  }
-
-  .nav-links li .btn-buy {
-    order: 1; /* Buy Now button hamesha last me rahe */
-    margin-top: 10px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-}
 
 
 
