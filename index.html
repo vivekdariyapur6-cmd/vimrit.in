@@ -1,131 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vimrit - A Drop of Purity</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vimrit Water – A Drop of Purity</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- AOS CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">
-        <h2>Vimrit</h2>
-        <p>A DROP OF PURITY</p>
-      </div>
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="https://wa.me/919304743065?text=Hello%2C%20I%20want%20to%20buy%20Vimrit" class="btn-buy" target="_blank">Buy Now</a></li>
-      </ul>
+<header class="navbar">
+    <div class="logo">Vimrit</div>
+
+    <nav id="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#quality" class="nav-link">Quality</a>
+        <a href="#contact" class="nav-link">Contact</a>
     </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-text" data-aos="fade-right">
-      <h1>Pure • Fresh • Premium</h1>
-      <p>Stay hydrated with Vimrit – A Drop of Purity</p>
-      <a href="#products" class="btn-shop" data-aos="zoom-in">Shop Now</a>
+    <div class="hamburger" id="hamburger">☰</div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero animate">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>A Drop of <span>Purity</span></h1>
+            <p>Pure • Fresh • Healthy Drinking Water</p>
+            <button>Explore More</button>
+        </div>
+
+        <div class="hero-image">
+            <img src="bottle.png">
+        </div>
     </div>
-    <div class="hero-image" data-aos="fade-left">
-      <img src="bottle.png" alt="Vimrit Bottle">
+</section>
+
+<!-- FEATURES -->
+<section class="features animate">
+    <div class="feature-box">
+        <h3>100% Pure</h3>
+        <p>Advanced purification process.</p>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about" data-aos="fade-up">
-    <i class="fas fa-tint fa-3x icon" data-aos="zoom-in"></i>
-    <h2 data-aos="fade-right">About Us</h2>
-    <p data-aos="fade-left">Vimrit is more than just water – it’s purity, freshness and premium quality in every drop.</p>
-  </section>
-
-  <!-- Products Section -->
-  <section class="products" id="products" data-aos="fade-up">
-    <i class="fas fa-bottle-water fa-3x icon" data-aos="zoom-in"></i>
-    <h2 data-aos="fade-right">Our Products</h2>
-    <p data-aos="fade-left">We offer premium bottled mineral water in different sizes for every need.</p>
-
-    <div class="products-container">
-      <div class="product" data-aos="fade-up">
-        <img src="bottle.png" alt="Vimrit 350ml">
-        <h3>Vimrit 350ml</h3>
-        <p>Fresh Mineral Water</p>
-        <a href="https://wa.me/919304743065?text=Hello%2C%20I%20want%20to%20buy%20Vimrit%20350ml" target="_blank" class="btn-whatsapp">Buy Now</a>
-      </div>
-
-      <div class="product" data-aos="fade-up">
-        <img src="bottle.png" alt="Vimrit 750ml">
-        <h3>Vimrit 750ml</h3>
-        <p>Stay hydrated all day</p>
-        <a href="https://wa.me/919304743065?text=Hello%2C%20I%20want%20to%20buy%20Vimrit%20750ml" target="_blank" class="btn-whatsapp">Buy Now</a>
-      </div>
-
-      <div class="product" data-aos="fade-up">
-        <img src="bottle.png" alt="Vimrit 1L">
-        <h3>Vimrit 1L</h3>
-        <p>Perfect for family</p>
-        <a href="https://wa.me/919304743065?text=Hello%2C%20I%20want%20to%20buy%20Vimrit%201L" target="_blank" class="btn-whatsapp">Buy Now</a>
-      </div>
+    <div class="feature-box">
+        <h3>Fresh Taste</h3>
+        <p>Crisp & refreshing taste.</p>
     </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact" id="contact" data-aos="fade-up">
-    <i class="fas fa-phone fa-3x icon" data-aos="zoom-in"></i>
-    <h2 data-aos="fade-right">Contact Us</h2>
-    <p data-aos="fade-left">For business inquiries, partnerships or bulk orders, reach out to us.</p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <p>© 2025 Vimrit. All Rights Reserved.</p>
-      <ul class="footer-links">
-        <li><a href="#privacy">Privacy Policy</a></li>
-        <li><a href="#terms">Terms & Conditions</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <div class="feature-box">
+        <h3>Healthy Life</h3>
+        <p>Essential minerals.</p>
     </div>
-  </footer>
+</section>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/919304743065" class="whatsapp" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-  </a>
+<!-- ABOUT -->
+<section id="about" class="about animate">
+    <h2>About Vimrit Water</h2>
+    <p>
+        Vimrit Water ek premium packaged drinking water brand hai jo
+        shuddhta, suraksha aur swasth jeevan ka vishwas deta hai.
+    </p>
+</section>
 
-  <!-- AOS JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init({ duration: 1200, once: true });
+<!-- QUALITY -->
+<section id="quality" class="quality animate">
+    <h2>Our Quality Promise</h2>
+    <div class="quality-points">
+        <div>✔ RO + UV + Ozonation</div>
+        <div>✔ FSSAI Certified</div>
+        <div>✔ ISO 9001:2015</div>
+    </div>
+</section>
 
-    // Hamburger menu toggle
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
+<!-- CONTACT -->
+<section id="contact" class="contact animate">
+    <h2>Contact Us</h2>
+    <p>Bulk order & distributorship or Customized bottle Available</p>
 
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-      hamburger.classList.toggle('open');
-    });
-  </script>
+    <div class="contact-info"> <div>📞 Phone: +91 8789956946</div>
+     <div>📍 Location:Kurji Balupar Lane, Beside Devi Madri: Address Near Railway Laundry, Patna, Bihar - 800010</div> </div>
+
+    <a href="https://wa.me/918789956946" class="contact-btn">Chat on WhatsApp</a>
+</section>
+<a href="https://wa.me/918789956946" class="whatsapp-float" target="_blank"> <img src="whatsapp.png"> </a>
+<footer>© 2026 Vimrit Water</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
